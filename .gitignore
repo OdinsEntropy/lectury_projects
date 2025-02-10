@@ -172,3 +172,7 @@ cython_debug/
 
 # Pytorch
 *.pth
+
+#Wandb
+wandb/
+
