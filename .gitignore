@@ -173,6 +173,8 @@ cython_debug/
 # Pytorch
 *.pth
 
-#Wandb
+# Wandb
 wandb/
 
+# Debug
+test.py
