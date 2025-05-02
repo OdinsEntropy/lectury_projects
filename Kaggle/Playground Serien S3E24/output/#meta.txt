@@ -1,0 +1,14 @@
+V1      <catboost.core.CatBoostClassifier object at 0x000001CA7F2778D0>       {'task_type': 'GPU'}
+V2      Pipeline(steps=[('lgbmclassifier',
+                 LGBMClassifier(colsample_bytree=0.35, device='cpu',
+                                learning_rate=0.05, max_depth=8, metric='auc',
+                                n_estimators=1000, num_leaves=175,
+                                objective='binary', random_state=23,
+                                reg_alpha=0.01, reg_lambda=1.75, subsample=0.45,
+                                verbose=-1))])       {'memory': None, 'steps': [('lgbmclassifier', LGBMClassifier(colsample_bytree=0.35, device='cpu', learning_rate=0.05,
+               max_depth=8, metric='auc', n_estimators=1000, num_leaves=175,
+               objective='binary', random_state=23, reg_alpha=0.01,
+               reg_lambda=1.75, subsample=0.45, verbose=-1))], 'verbose': False, 'lgbmclassifier': LGBMClassifier(colsample_bytree=0.35, device='cpu', learning_rate=0.05,
+               max_depth=8, metric='auc', n_estimators=1000, num_leaves=175,
+               objective='binary', random_state=23, reg_alpha=0.01,
+               reg_lambda=1.75, subsample=0.45, verbose=-1), 'lgbmclassifier__boosting_type': 'gbdt', 'lgbmclassifier__class_weight': None, 'lgbmclassifier__colsample_bytree': 0.35, 'lgbmclassifier__importance_type': 'split', 'lgbmclassifier__learning_rate': 0.05, 'lgbmclassifier__max_depth': 8, 'lgbmclassifier__min_child_samples': 20, 'lgbmclassifier__min_child_weight': 0.001, 'lgbmclassifier__min_split_gain': 0.0, 'lgbmclassifier__n_estimators': 1000, 'lgbmclassifier__n_jobs': None, 'lgbmclassifier__num_leaves': 175, 'lgbmclassifier__objective': 'binary', 'lgbmclassifier__random_state': 23, 'lgbmclassifier__reg_alpha': 0.01, 'lgbmclassifier__reg_lambda': 1.75, 'lgbmclassifier__subsample': 0.45, 'lgbmclassifier__subsample_for_bin': 200000, 'lgbmclassifier__subsample_freq': 0, 'lgbmclassifier__device': 'cpu', 'lgbmclassifier__metric': 'auc', 'lgbmclassifier__verbose': -1}
